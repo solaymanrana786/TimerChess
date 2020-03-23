@@ -1,0 +1,6 @@
+framework module Pods_UIKITChess {
+  umbrella header "Pods-UIKITChess-umbrella.h"
+
+  export *
+  module * { export * }
+}
