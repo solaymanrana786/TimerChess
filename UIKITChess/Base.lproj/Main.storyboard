@@ -132,6 +132,7 @@
                     <connections>
                         <outlet property="downTimeLabel" destination="F9c-Po-bk6" id="kC3-9k-vuX"/>
                         <outlet property="downView" destination="B6g-2D-ttj" id="A78-G2-Lid"/>
+                        <outlet property="pauseButton" destination="7bu-K7-Zl2" id="IW7-Il-SpL"/>
                         <outlet property="upPicker" destination="c24-Tz-z6m" id="0Lm-ca-91e"/>
                         <outlet property="upTimeLabel" destination="h4L-3V-Qos" id="Rcr-uj-YeA"/>
                         <outlet property="upView" destination="uDP-KE-iBW" id="d2U-W2-Bmy"/>

@@ -69,6 +69,7 @@ class ViewController: UIViewController {
         
     }
     
+  
     @IBOutlet weak var upPicker: UIButton!
     @IBAction func pickerButtonTapped(_ sender: Any) {
         
@@ -93,10 +94,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var pauseButton: UIButton!
     @IBAction func pauseButtontapped(_ sender: Any) {
          timer1.invalidate()
          timer2.invalidate()
-        
+         pauseButton.alpha = 0
     }
     
     @IBAction func refreshButtonTapped(_ sender: Any) {
@@ -172,6 +174,7 @@ class ViewController: UIViewController {
         timer1.invalidate()
         upView.isUserInteractionEnabled = false
         downView.isUserInteractionEnabled = true
+         pauseButton.alpha = 1
     }
     
     @objc func tapOnView2(_ sender: UITapGestureRecognizer) {
@@ -181,6 +184,7 @@ class ViewController: UIViewController {
         timer2.invalidate()
         upView.isUserInteractionEnabled = true
         downView.isUserInteractionEnabled = false
+         pauseButton.alpha = 1t
     }
     
     func formattedTime(_ time: Double) -> String {
